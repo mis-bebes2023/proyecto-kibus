@@ -302,7 +302,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 
 /* Header */
-#header{color:#FFFFFF; background-color:#01546B;}
+#header{color:#FFFFFF; background-color:#01b091;}
 #header #logo a{color:inherit;}
 
 
@@ -450,4 +450,10 @@ table a, #comments a{background-color:inherit;}
 
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
+}
+
+#logo{
+	width: 150px;
+	height: 96px;
+	margin-top: 1px !important;
 }
