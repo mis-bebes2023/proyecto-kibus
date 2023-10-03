@@ -433,3 +433,7 @@ table a, #comments a{background-color:inherit;}
 	height: 95px;
 	margin-top: 0px !important;
 }
+
+.btn{
+	margin-top: 5px !important;
+}
