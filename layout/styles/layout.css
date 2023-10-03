@@ -1,13 +1,5 @@
 @charset "utf-8";
-/*
-Template Name: Nekmit
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
+
 
 @import url("fontawesome-free/css/all.css");
 @import url("framework.css");
@@ -143,28 +135,12 @@ File: Layout CSS
 #copyright *{margin:0; padding:0;}
 
 
-/* Add roundness to certain items
-Settings are all different due to the optical similarity needed for different sized elements
-Delete this section if roundness is not wanted / required
---------------------------------------------------------------------------------------------------------------- */
 .btn{border-radius:14px;}
 #footer input, #footer button{border-radius:12px;}
 
 
-/* Transition Fade
-This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
-If you don't want it to fade all elements, you have to list the ones you want to be faded individually
-Delete it completely to stop fading
---------------------------------------------------------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
 
 
 /* Navigation
@@ -274,7 +250,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#FFFFFF; background-color:#026B8A;}
-a{color:#0AC6FC;}
+a{color:#01b091;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -285,7 +261,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#0AC6FC; border-color:#0AC6FC;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#04B7B1; border-color:#0AC6FC;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background-color:rgba(10,198,252,.3);/* #0AC6FC */}
@@ -293,8 +269,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 
 /* Rows */
-.row0, .row0 a{color:#FFFFFF; background-color:#0AC6FC;}
-.row1{color:#FFFFFF; background-color:#026B8A;}
+.row0, .row0 a{color:#FFFFFF; background-color:#FEC831;}
+.row1{color:#FFFFFF; background-color:#04B7B1;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#FFFFFF; background-color:#01546B;}
@@ -308,19 +284,19 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 /* Contact Details */
 #ctdetails ul li div i{color:inherit; background-color:rgba(255,255,255,.2);}
-#ctdetails ul li div:hover i{color:#FFFFFF; background-color:#0AC6FC;}
+#ctdetails ul li div:hover i{color:#FFFFFF; background-color:#FEC831;}
 
 
 /* Content */
 #services li article{border-color:#0AC6FC;}
 #services li article a{color:inherit;}
 #services li article:hover{color:#FFFFFF; background-color:#026B8A;}
-#services li article:hover a{color:#0AC6FC;}
+#services li article:hover a{color:#04B7B1;}
 #services li article > a > i{color:#FFFFFF; background-color:#01546B; border-color:rgba(0,0,0,.1);}
 #services li article:hover > a > i{background-color:#0AC6FC;}
 
 #points{color:#474747; background-color:#FFFFFF;}
-#points li span{color:#FFFFFF; background-color:rgba(10,198,252,.7)/* #0AC6FC */;}
+#points li span{color:#FFFFFF; background-color:#04B7B1/* #0AC6FC */;}
 #points li:hover span{background-color:#01546B;}
 
 #latest article figure figcaption .meta li{border-color:rgba(0,0,0,.1);}
