@@ -454,6 +454,6 @@ table a, #comments a{background-color:inherit;}
 
 #logo{
 	width: 150px;
-	height: 96px;
-	margin-top: 1px !important;
+	height: 95px;
+	margin-top: 0px !important;
 }
