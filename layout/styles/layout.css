@@ -249,7 +249,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#FFFFFF; background-color:#026B8A;}
+body{color:#FFFFFF; background-color:#04B7B1;}
 a{color:#01b091;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -273,8 +273,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 .row1{color:#FFFFFF; background-color:#04B7B1;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#FFFFFF; background-color:#01546B;}
-.row5, .row5 a{color:#FFFFFF; background-color:#026B8A;}
+.row4{color:#FFFFFF; background-color:#007b77;}
+.row5, .row5 a{color:#FFFFFF; background-color:#04B7B1;}
 
 
 /* Header */
@@ -308,16 +308,16 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
-#footer input:focus{background-color:#0AC6FC;}
-#footer button{color:#FFFFFF; background-color:#0AC6FC;}
+#footer input:focus{background-color:#04B7B1;}
+#footer button{color:#FFFFFF; background-color:#04B7B1;}
 #footer button:hover{color:inherit; background-color:transparent; border-color:inherit;}
 
 
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FEC831; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(10,198,252,.5); border-color:rgba(10,198,252,.5);/* #0AC6FC */}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#0AC6FC;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:#04B7B1; border-color:rgba(10,198,252,.5);/* #0AC6FC */}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#04B7B1;}
 #mainav form select{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
 
 #breadcrumb *{color:#FFFFFF; background-color:inherit;}
@@ -356,13 +356,18 @@ table a, #comments a{background-color:inherit;}
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:1140px){
 	.hoc{
-		max-width:1140px;
-		
+		max-width:1140px;		
 	}
+	/* header{
+		width: 100%;
+	} */
 }
 
 @media screen and (min-width:978px) and (max-width:1140px){
 	.hoc{max-width:95%;}
+	/* header{
+		width: 100%;
+	} */
 }
 
 
@@ -439,4 +444,9 @@ table a, #comments a{background-color:inherit;}
 
 .btn{
 	margin-top: 5px !important;
+}
+
+#menu{
+	background-color: #01b091 !important;
+	
 }
