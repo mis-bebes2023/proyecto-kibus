@@ -450,3 +450,18 @@ table a, #comments a{background-color:inherit;}
 	background-color: #01b091 !important;
 	
 }
+
+.nav-item{
+	margin-top: 10px;
+}
+
+.nav-link{
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 1.3rem !important;
+}
+.nav-link:hover{
+	color: #FEC831 !important;
+	font-weight: bold;
+	font-size: 1.3rem !important;
+}
