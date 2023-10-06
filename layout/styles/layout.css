@@ -393,6 +393,9 @@ table a, #comments a{background-color:inherit;}
 
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
+	.one_quarter .first img{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width:750px){
@@ -414,12 +417,18 @@ table a, #comments a{background-color:inherit;}
 	.grid-3 > li:last-child{margin-bottom:0;}
 
 	#latest > li{margin:0 auto 50px;}
+	.one_quarter .first img{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width:450px){
 	#points{padding:30px;}
 	#points li{display:block; float:none; width:100%; margin-left:0;}
 	#points li:nth-last-child(2){margin-bottom:20px;}
+	.one_quarter .first img{
+		width: 100%;
+	}
 }
 
 
@@ -434,6 +443,9 @@ table a, #comments a{background-color:inherit;}
 
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
+	.one_quarter .first img{
+		width: 100%;
+	}
 }
 
 #logo{
